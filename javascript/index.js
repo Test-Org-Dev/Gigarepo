@@ -12,7 +12,7 @@ function isNumber(num){
         console.log("Number is false")
     } else if (!!x) {
         console.log(`Number: ${x}`)
-    } else if(2 == x){}
+    } else if(x == 2){}
 }
 
 function isTruthy(x) {
@@ -67,7 +67,7 @@ let result = isFooAvailable({
 
 function checkYoda(){
     let yoda = true;
-    if(true == yoda){
+    if(yoda == true){
         console.log("I am yoda")
     }
 }
