@@ -6,7 +6,7 @@ function isEven(x){
 }
 
 function isNumber(num){
-    let x = undefined
+  let x = undefined
     x= num % 2
     if(false)           {
         console.log("Number is false")
@@ -21,7 +21,7 @@ function isTruthy(x) {
 };
 
 function area(r) {
-    let math = Math()
+  let math = Math()
     return math.PI * r * r;
 }
 
