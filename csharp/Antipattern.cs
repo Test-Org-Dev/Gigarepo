@@ -11,7 +11,7 @@ internal class Antipattern
 {
     public static void CommonAntipatterns()
     {
-        var arr = new[] {1, 2, 3, 4, 5};
+        var arr = new[] { 1, 2, 3, 4, 5 };
         // CS-R1019: `arr[arr.Length - 1]` can be rewritten as `arr[^1].`
         // https://deepsource.io/directory/analyzers/csharp/issues/CS-R1019
         var last = arr[arr.Length - 1];
@@ -50,7 +50,7 @@ internal class Antipattern
 
         // CS-R1045: Explicit array size is redundant when initialized in place.
         // https://deepsource.io/directory/analyzers/csharp/issues/CS-R1045
-        var odd = new int[] {1, 3, 5, 7, 9};
+        var odd = new int[] { 1, 3, 5, 7, 9 };
 
         Foo? f = null;
         // CS-R1040: Null check can be collapsed and written as `f?.Bar == null`.
